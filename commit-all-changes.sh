@@ -18,7 +18,7 @@ if [ $? -eq 0 ]; then
   echo "All changes committed successfully with message: $1"
   
   # Uncomment the following line if you want to automatically push the changes after commit
-  # git push
+git push
   
   echo "Use 'git push' to push the changes to the remote repository if not already done."
 else
