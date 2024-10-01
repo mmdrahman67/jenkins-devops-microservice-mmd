@@ -30,7 +30,7 @@ pipeline {
 		always{
 			echo('Im awesome, I run always')
 		}
-		sucess{
+		success{
 			echo('Im awesome, I am successful')
 		}
 		failure{
